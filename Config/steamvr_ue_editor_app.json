@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.virtual-reality-bp-game-template-15973114.ue4editor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "E:/Epic/UE_4.26/Project/Dodo_0_2/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "Virtual Reality BP Game Template-15973114 [UE Editor]"
+				}
+			}
+		}
+	]
+}
