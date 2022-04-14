@@ -73,8 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-Content/0_Dodo_0_3/Maps/
-
 Content/Elite_Landscapes/Maps/
 
 Content/StarterBundle/CollectionMaps/
