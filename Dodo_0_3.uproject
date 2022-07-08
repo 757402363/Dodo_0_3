@@ -31,6 +31,10 @@
 		{
 			"Name": "OculusAudio",
 			"Enabled": true
+		},
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
