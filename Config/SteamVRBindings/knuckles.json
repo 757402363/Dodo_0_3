@@ -8,19 +8,8 @@
 		{
 			"sources": [
 				{
-					"mode": "button",
-					"path": "/user/hand/right/input/a",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
 					"mode": "dpad",
-					"path": "/user/hand/right/input/thumbstick",
+					"path": "/user/hand/left/input/thumbstick",
 					"parameters":
 					{
 						"sub_mode": "touch"
@@ -29,17 +18,17 @@
 					{
 						"north":
 						{
-							"output": "/actions/main/in/TeleportRight"
+							"output": "/actions/main/in/TeleportLeft"
 						},
 						"south":
 						{
-							"output": "/actions/main/in/TeleportRight"
+							"output": "/actions/main/in/TeleportLeft"
 						}
 					}
 				},
 				{
 					"mode": "dpad",
-					"path": "/user/hand/right/input/thumbstick",
+					"path": "/user/hand/left/input/thumbstick",
 					"parameters":
 					{
 						"sub_mode": "touch"
@@ -48,11 +37,11 @@
 					{
 						"west":
 						{
-							"output": "/actions/main/in/TeleportRight"
+							"output": "/actions/main/in/TeleportLeft"
 						},
 						"east":
 						{
-							"output": "/actions/main/in/TeleportRight"
+							"output": "/actions/main/in/TeleportLeft"
 						}
 					}
 				},
@@ -69,7 +58,7 @@
 				},
 				{
 					"mode": "dpad",
-					"path": "/user/hand/left/input/thumbstick",
+					"path": "/user/hand/right/input/thumbstick",
 					"parameters":
 					{
 						"sub_mode": "touch"
@@ -78,17 +67,17 @@
 					{
 						"north":
 						{
-							"output": "/actions/main/in/TeleportLeft"
+							"output": "/actions/main/in/TeleportRight"
 						},
 						"south":
 						{
-							"output": "/actions/main/in/TeleportLeft"
+							"output": "/actions/main/in/TeleportRight"
 						}
 					}
 				},
 				{
 					"mode": "dpad",
-					"path": "/user/hand/left/input/thumbstick",
+					"path": "/user/hand/right/input/thumbstick",
 					"parameters":
 					{
 						"sub_mode": "touch"
@@ -97,11 +86,22 @@
 					{
 						"west":
 						{
-							"output": "/actions/main/in/TeleportLeft"
+							"output": "/actions/main/in/TeleportRight"
 						},
 						"east":
 						{
-							"output": "/actions/main/in/TeleportLeft"
+							"output": "/actions/main/in/TeleportRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportRight"
 						}
 					}
 				},
@@ -161,5 +161,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "Virtual Reality BP Game Template-15973114"
 }
