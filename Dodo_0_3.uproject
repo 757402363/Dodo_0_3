@@ -35,6 +35,14 @@
 		{
 			"Name": "ApexDestruction",
 			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
+		},
+		{
+			"Name": "UE4Duino",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
